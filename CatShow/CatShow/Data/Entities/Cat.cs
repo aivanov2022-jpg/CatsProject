@@ -17,7 +17,7 @@ namespace CatShow.Data.Entities
         [Required]
         [Range(0,15)]
         public int Age { get; set; }
-
+        // URL
         public string Picture { get; set; } = null!;
     }
 }
